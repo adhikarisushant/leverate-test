@@ -15,5 +15,7 @@ export interface GetPeopleRequest {
     city: string;
     country: string;
     date_of_birth: string;
+    country_name?: string;
+    flag?: string;
   }
   
